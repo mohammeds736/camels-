@@ -1,0 +1,55 @@
+[
+  {
+    "id": "taiz-001",
+    "title": "تعز: تقرير ميداني عن مديرية مشرعة وحدنان (قرية المسنح)",
+    "category": "local",
+    "location": "تعز • مشرعة وحدنان • المسنح",
+    "date": "2025-12-29",
+    "cover": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'><defs><linearGradient id='a' x1='0' x2='1'><stop offset='0' stop-color='%231b2a4a'/><stop offset='1' stop-color='%230b1220'/></linearGradient></defs><rect width='1200' height='700' fill='url(%23a)'/><circle cx='260' cy='220' r='190' fill='rgba(56,189,248,0.22)'/><circle cx='860' cy='280' r='220' fill='rgba(34,197,94,0.16)'/><text x='70' y='120' fill='rgba(233,238,252,0.92)' font-size='56' font-family='Tahoma'>تعز • مشرعة وحدنان</text><text x='70' y='190' fill='rgba(169,180,214,0.9)' font-size='34' font-family='Tahoma'>صورة افتراضية مضمّنة داخل الموقع</text></svg>",
+    "excerpt": "ملخص قصير: متابعة محلية وخدمات مجتمعية داخل المديرية والقرية.",
+    "content": [
+      "هذا نموذج جاهز لاستبداله بنصوص الأخبار الحقيقية.",
+      "اكتب الخبر بشكل منظم: مقدمة مختصرة، تفاصيل مؤكدة، ثم خاتمة أو توصية."
+    ]
+  },
+  {
+    "id": "int-001",
+    "title": "متابعة دولية: تطورات اقتصادية مؤثرة على أسعار السلع",
+    "category": "international",
+    "location": "دولي",
+    "date": "2025-12-28",
+    "cover": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='%23101a2e'/><stop offset='1' stop-color='%230b1220'/></linearGradient></defs><rect width='1200' height='700' fill='url(%23b)'/><rect x='70' y='90' width='1060' height='520' rx='26' fill='rgba(255,255,255,0.04)' stroke='rgba(255,255,255,0.08)'/><text x='120' y='190' fill='rgba(233,238,252,0.92)' font-size='54' font-family='Tahoma'>أخبار دولية</text><text x='120' y='260' fill='rgba(169,180,214,0.9)' font-size='34' font-family='Tahoma'>صورة افتراضية مضمّنة داخل الموقع</text></svg>",
+    "excerpt": "ملخص قصير: قراءة مبسطة وتفسير أثر الخبر.",
+    "content": [
+      "هذا نموذج للخبر الدولي.",
+      "يمكنك إضافة مصادر الخبر داخل النص إذا كان لديك روابط رسمية أو وكالات."
+    ]
+  },
+  {
+    "id": "qat-001",
+    "title": "أنواع القات: تعريفات عامة وملاحظات توعوية",
+    "category": "qat",
+    "location": "تعز",
+    "date": "2025-12-27",
+    "cover": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'><defs><linearGradient id='c' x1='0' x2='1'><stop offset='0' stop-color='%230b1220'/><stop offset='1' stop-color='%23102a1e'/></linearGradient></defs><rect width='1200' height='700' fill='url(%23c)'/><circle cx='360' cy='360' r='220' fill='rgba(34,197,94,0.20)'/><text x='70' y='120' fill='rgba(233,238,252,0.92)' font-size='54' font-family='Tahoma'>قسم القات</text><text x='70' y='190' fill='rgba(169,180,214,0.9)' font-size='34' font-family='Tahoma'>صورة افتراضية مضمّنة داخل الموقع</text></svg>",
+    "excerpt": "ملخص قصير: محتوى معلوماتي عام قابل للتوسعة.",
+    "content": [
+      "اجعل هذا القسم معلوماتيًا وتوعويًا.",
+      "لا تذكر ادعاءات طبية غير مؤكدة. إن احتجت، صغها كنصائح عامة فقط."
+    ]
+  },
+  {
+    "id": "tips-001",
+    "title": "نصيحة الأسبوع: كيف تميّز الخبر الصحيح من الشائعة؟",
+    "category": "tips",
+    "location": "نصائح وخدمات",
+    "date": "2025-12-26",
+    "cover": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'><defs><linearGradient id='d' x1='0' x2='1'><stop offset='0' stop-color='%231a1633'/><stop offset='1' stop-color='%230b1220'/></linearGradient></defs><rect width='1200' height='700' fill='url(%23d)'/><rect x='70' y='110' width='1060' height='480' rx='26' fill='rgba(168,85,247,0.10)' stroke='rgba(255,255,255,0.08)'/><text x='120' y='220' fill='rgba(233,238,252,0.92)' font-size='54' font-family='Tahoma'>نصائح وخدمات</text><text x='120' y='290' fill='rgba(169,180,214,0.9)' font-size='34' font-family='Tahoma'>صورة افتراضية مضمّنة داخل الموقع</text></svg>",
+    "excerpt": "ملخص قصير: خطوات عملية للتحقق قبل مشاركة الأخبار.",
+    "content": [
+      "تحقق من المصدر الأصلي للخبر.",
+      "قارن الخبر مع مصدرين مستقلين.",
+      "انتبه للتاريخ والصور القديمة."
+    ]
+  }
+]
