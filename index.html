@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>موقع مختار الشعابي (الجمل) الإخباري</title>
+  <meta name="description" content="أخبار تعز ومشرعة وحدنان وقرية المسنح، وأخبار محلية ودولية ونصائح وخدمات." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">الجمل</div>
+        <div class="brand-text">
+          <h1>موقع مختار الشعابي (الجمل)</h1>
+          <p>اليمن • محافظة تعز • مديرية مشرعة وحدنان • قرية المسنح</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة">☰</button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#latest">آخر الأخبار</a></li>
+          <li><a href="#local">أخبار تعز ومشرعة وحدنان</a></li>
+          <li><a href="#qat">أنواع القات</a></li>
+          <li><a href="#tips">نصائح وخدمات</a></li>
+          <li><a href="#about">عن الموقع</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Slider -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="slider" id="slider">
+            <div class="slider-track" id="sliderTrack"></div>
+            <div class="slider-controls">
+              <button class="btn" id="prevSlide" aria-label="السابق">‹</button>
+              <button class="btn" id="nextSlide" aria-label="التالي">›</button>
+            </div>
+          </div>
+
+          <aside class="sidebar-card">
+            <h2>بحث سريع</h2>
+            <div class="search">
+              <input id="searchInput" type="search" placeholder="ابحث بعنوان الخبر أو الكلمات…" />
+              <select id="categorySelect">
+                <option value="all">كل الأقسام</option>
+                <option value="local">محلي (تعز/مشرعة وحدنان)</option>
+                <option value="international">دولي</option>
+                <option value="qat">أنواع القات</option>
+                <option value="tips">نصائح وخدمات</option>
+              </select>
+            </div>
+
+            <div class="chips" id="chips">
+              <button class="chip active" data-filter="all">الكل</button>
+              <button class="chip" data-filter="local">محلي</button>
+              <button class="chip" data-filter="international">دولي</button>
+              <button class="chip" data-filter="qat">قات</button>
+              <button class="chip" data-filter="tips">نصائح</button>
+            </div>
+
+            <div class="note">
+              <strong>ملاحظة الصور:</strong>
+              ضع روابط صور مرخّصة للاستخدام داخل ملف <code>posts.json</code>.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest -->
+    <section class="section" id="latest">
+      <div class="container">
+        <div class="section-head">
+          <h2>آخر الأخبار</h2>
+          <p>تحديثات محلية ودولية، مع قسم خاص لتعز ومشرعة وحدنان، وقسم لأنواع القات.</p>
+        </div>
+        <div class="grid" id="latestGrid"></div>
+      </div>
+    </section>
+
+    <!-- Local -->
+    <section class="section alt" id="local">
+      <div class="container">
+        <div class="section-head">
+          <h2>أخبار تعز • مشرعة وحدنان • المسنح</h2>
+          <p>هذا القسم مخصص للأخبار والفعاليات والخدمات داخل المحافظة والمديرية والقرية.</p>
+        </div>
+        <div class="grid" id="localGrid"></div>
+      </div>
+    </section>
+
+    <!-- Qat Types -->
+    <section class="section" id="qat">
+      <div class="container">
+        <div class="section-head">
+          <h2>أنواع القات</h2>
+          <p>تعريفات عامة وملاحظات توعوية. أضف الأنواع والصور عبر ملف البيانات.</p>
+        </div>
+        <div class="grid" id="qatGrid"></div>
+      </div>
+    </section>
+
+    <!-- Tips -->
+    <section class="section alt" id="tips">
+      <div class="container">
+        <div class="section-head">
+          <h2>نصائح وخدمات</h2>
+          <p>قسم خدمات ونصائح مجتمعية: إرشادات، تنبيهات، معلومات مفيدة، ومواضيع توعوية.</p>
+        </div>
+        <div class="grid" id="tipsGrid"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about">
+          <h2>عن الموقع</h2>
+          <p>
+            هذا الموقع منصة إخبارية ومجتمعية باسم <strong>مختار الشعابي (الجمل)</strong>، تغطي الأخبار المحلية في
+            <strong>تعز</strong> و<strong>مديرية مشرعة وحدنان</strong> و<strong>قرية المسنح</strong>، مع متابعة مختصرة للأخبار الدولية،
+            وإضافة محتوى توعوي وخدمي، وقسم معلوماتي عن أنواع القات.
+          </p>
+          <p>
+            الموقع مصمم ليعمل كصفحات ثابتة قابلة للنشر على <strong>GitHub Pages</strong> دون أي خادم (Server).
+            تحديث المحتوى يتم عبر ملف <code>posts.json</code>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> موقع مختار الشعابي (الجمل) — جميع الحقوق محفوظة.</p>
+      <p class="muted">نصيحة: استخدم صورًا مرخّصة للاستخدام أو صورك الخاصة لتفادي مشاكل حقوق النشر.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+  </html>
