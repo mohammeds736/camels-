@@ -12,7 +12,19 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <div class="logo">الجمل</div>
+        <div class="logo" aria-label="شعار الجمل">
+          <svg viewBox="0 0 64 64" width="34" height="34" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="rgba(56,189,248,0.95)"/>
+                <stop offset="1" stop-color="rgba(34,197,94,0.95)"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#g)" d="M20 34c2-7 7-14 14-14 6 0 10 5 11 10 4 0 7 3 7 7 0 4-3 7-7 7H18c-4 0-7-3-7-7 0-4 3-7 7-7 0-1 1-2 2-3z"/>
+            <path fill="rgba(233,238,252,0.92)" d="M24 31c1-4 5-9 10-9 4 0 7 3 8 7-5 0-10 2-12 7h-6z"/>
+            <circle cx="39.5" cy="30.5" r="1.5" fill="rgba(11,18,32,0.9)"/>
+          </svg>
+        </div>
         <div class="brand-text">
           <h1>موقع مختار الشعابي (الجمل)</h1>
           <p>اليمن • محافظة تعز • مديرية مشرعة وحدنان • قرية المسنح</p>
@@ -33,7 +45,6 @@
   </header>
 
   <main>
-    <!-- Hero / Slider -->
     <section class="hero">
       <div class="container">
         <div class="hero-grid">
@@ -67,15 +78,14 @@
             </div>
 
             <div class="note">
-              <strong>ملاحظة الصور:</strong>
-              ضع روابط صور مرخّصة للاستخدام داخل ملف <code>posts.json</code>.
+              الصور في هذا المشروع <strong>مضمّنة داخل الموقع</strong> (بدون روابط خارجية).
+              إذا أردت صورًا حقيقية، ضعها محليًا داخل المشروع ثم بدّل قيمة <code>cover</code> في <code>posts.json</code>.
             </div>
           </aside>
         </div>
       </div>
     </section>
 
-    <!-- Latest -->
     <section class="section" id="latest">
       <div class="container">
         <div class="section-head">
@@ -86,52 +96,47 @@
       </div>
     </section>
 
-    <!-- Local -->
     <section class="section alt" id="local">
       <div class="container">
         <div class="section-head">
           <h2>أخبار تعز • مشرعة وحدنان • المسنح</h2>
-          <p>هذا القسم مخصص للأخبار والفعاليات والخدمات داخل المحافظة والمديرية والقرية.</p>
+          <p>مخصص للأخبار والفعاليات والخدمات داخل المحافظة والمديرية والقرية.</p>
         </div>
         <div class="grid" id="localGrid"></div>
       </div>
     </section>
 
-    <!-- Qat Types -->
     <section class="section" id="qat">
       <div class="container">
         <div class="section-head">
           <h2>أنواع القات</h2>
-          <p>تعريفات عامة وملاحظات توعوية. أضف الأنواع والصور عبر ملف البيانات.</p>
+          <p>محتوى معلوماتي عام، ويمكنك توسيعه وإضافة موادك وصورك المحلية.</p>
         </div>
         <div class="grid" id="qatGrid"></div>
       </div>
     </section>
 
-    <!-- Tips -->
     <section class="section alt" id="tips">
       <div class="container">
         <div class="section-head">
           <h2>نصائح وخدمات</h2>
-          <p>قسم خدمات ونصائح مجتمعية: إرشادات، تنبيهات، معلومات مفيدة، ومواضيع توعوية.</p>
+          <p>إرشادات وتنبيهات ومعلومات مجتمعية.</p>
         </div>
         <div class="grid" id="tipsGrid"></div>
       </div>
     </section>
 
-    <!-- About -->
     <section class="section" id="about">
       <div class="container">
         <div class="about">
           <h2>عن الموقع</h2>
           <p>
-            هذا الموقع منصة إخبارية ومجتمعية باسم <strong>مختار الشعابي (الجمل)</strong>، تغطي الأخبار المحلية في
-            <strong>تعز</strong> و<strong>مديرية مشرعة وحدنان</strong> و<strong>قرية المسنح</strong>، مع متابعة مختصرة للأخبار الدولية،
-            وإضافة محتوى توعوي وخدمي، وقسم معلوماتي عن أنواع القات.
+            منصة إخبارية ومجتمعية باسم <strong>مختار الشعابي (الجمل)</strong>،
+            تغطي الأخبار المحلية في <strong>تعز</strong> و<strong>مديرية مشرعة وحدنان</strong> و<strong>قرية المسنح</strong>،
+            مع متابعة مختصرة للأخبار الدولية، ومحتوى توعوي وخدمي.
           </p>
           <p>
-            الموقع مصمم ليعمل كصفحات ثابتة قابلة للنشر على <strong>GitHub Pages</strong> دون أي خادم (Server).
-            تحديث المحتوى يتم عبر ملف <code>posts.json</code>.
+            الموقع ثابت ومناسب للنشر على <strong>GitHub Pages</strong> دون خادم. إدارة المحتوى عبر <code>posts.json</code>.
           </p>
         </div>
       </div>
@@ -141,10 +146,11 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> موقع مختار الشعابي (الجمل) — جميع الحقوق محفوظة.</p>
-      <p class="muted">نصيحة: استخدم صورًا مرخّصة للاستخدام أو صورك الخاصة لتفادي مشاكل حقوق النشر.</p>
+      <p class="muted">هذا الإصدار لا يستخدم روابط صور خارجية. كل الصور مضمّنة داخل الملفات.</p>
     </div>
   </footer>
 
+  <div class="page-transition" id="pageTransition" aria-hidden="true"></div>
   <script src="assets/js/app.js"></script>
 </body>
   </html>
